@@ -1,0 +1,913 @@
+2025-10-20 18:21:51,691 - INFO - Shard ID 0 has successfully RESUMED session 1779c9dfe06bc78b9ccdd27e7eac1f22.
+2025-10-20 18:39:50,693 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-20 18:39:51,535 - INFO - logging in using static token
+2025-10-20 18:39:51,540 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.104:8080
+2025-10-20 18:39:51,541 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-20 18:39:53,314 - INFO - Shard ID 0 has connected to Gateway (Session ID: e89ed7a3a190a6417a6344a2408611be).
+2025-10-20 18:39:58,684 - INFO - Shard ID 1 has connected to Gateway (Session ID: 65384791c8cec25b6b60f5ef084439d5).
+2025-10-20 18:40:00,690 - INFO - 
+██╗  ██╗██╗     ██╗  ██╗██╗         ██╗  ██╗███████╗██████╗ ███████╗
+██║ ██╔╝██║     ██║ ██╔╝██║         ██║  ██║██╔════╝██╔══██╗██╔════╝
+█████╔╝ ██║     █████╔╝ ██║         ███████║█████╗  ██████╔╝█████╗  
+██╔═██╗ ██║     ██╔═██╗ ██║         ██╔══██║██╔══╝  ██╔══██╗██╔══╝  
+██║  ██╗███████╗██║  ██╗███████╗    ██║  ██║███████╗██║  ██║███████╗
+╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝
+    
+2025-10-20 18:40:00,691 - INFO - Loaded & Online!
+2025-10-20 18:40:00,691 - INFO - Logged in as: KLKL#3875
+2025-10-20 18:40:00,691 - INFO - Connected to: 2 guilds
+2025-10-20 18:40:00,692 - INFO - Connected to: 15 users
+2025-10-20 18:40:00,692 - INFO - Startup time: 0.00 seconds
+2025-10-20 18:40:01,284 - INFO - Synced Total 219 Client Commands and 98 Slash Commands
+2025-10-20 18:49:36,096 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-20 18:49:36,480 - INFO - logging in using static token
+2025-10-20 18:49:36,485 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.104:8080
+2025-10-20 18:49:36,485 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-20 18:49:38,160 - INFO - Shard ID 0 has connected to Gateway (Session ID: 2282778ae154fe12af604de7713fd798).
+2025-10-20 18:49:43,703 - INFO - Shard ID 1 has connected to Gateway (Session ID: 4c6073e4ac7321d1e1c891c39083aa5f).
+2025-10-20 18:49:45,709 - INFO - 
+██╗  ██╗██╗     ██╗  ██╗██╗         ██╗  ██╗███████╗██████╗ ███████╗
+██║ ██╔╝██║     ██║ ██╔╝██║         ██║  ██║██╔════╝██╔══██╗██╔════╝
+█████╔╝ ██║     █████╔╝ ██║         ███████║█████╗  ██████╔╝█████╗  
+██╔═██╗ ██║     ██╔═██╗ ██║         ██╔══██║██╔══╝  ██╔══██╗██╔══╝  
+██║  ██╗███████╗██║  ██╗███████╗    ██║  ██║███████╗██║  ██║███████╗
+╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝
+    
+2025-10-20 18:49:45,709 - INFO - Loaded & Online!
+2025-10-20 18:49:45,710 - INFO - Logged in as: KLKL#3875
+2025-10-20 18:49:45,710 - INFO - Connected to: 2 guilds
+2025-10-20 18:49:45,710 - INFO - Connected to: 15 users
+2025-10-20 18:49:45,710 - INFO - Startup time: 0.00 seconds
+2025-10-20 18:49:46,175 - INFO - Synced Total 219 Client Commands and 98 Slash Commands
+2025-10-20 19:00:18,908 - WARNING - An error occured making a request on Node(identifier=CKAjfH6psDICSWpD, uri=https://lava-v4.ajieblogs.eu.org:443, status=NodeStatus.CONNECTED, players=1): 429, message='Attempt to decode JSON with unexpected mimetype: text/plain', url='https://lava-v4.ajieblogs.eu.org/v4/sessions/h5bk04uijn8v6dog/players/1428481916256124938?noReplace=False'
+2025-10-20 19:00:18,908 - ERROR - Ignoring exception in on_wavelink_track_end
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\wavelink\node.py", line 542, in _update_player
+    exc_data: ErrorResponse = await resp.json()
+                              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\client_reqrep.py", line 758, in json
+    raise ContentTypeError(
+    ...<7 lines>...
+    )
+aiohttp.client_exceptions.ContentTypeError: 429, message='Attempt to decode JSON with unexpected mimetype: text/plain', url='https://lava-v4.ajieblogs.eu.org/v4/sessions/h5bk04uijn8v6dog/players/1428481916256124938?noReplace=False'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\commands\music.py", line 997, in on_wavelink_track_end
+    await self.on_track_end(payload)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\commands\music.py", line 416, in on_track_end
+    await player.play(payload.track)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\wavelink\player.py", line 913, in play
+    await self.node._update_player(self.guild.id, data=request, replace=replace)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\wavelink\node.py", line 545, in _update_player
+    raise NodeException(status=resp.status)
+wavelink.exceptions.NodeException: None
+2025-10-20 19:14:51,702 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-20 19:14:52,121 - INFO - logging in using static token
+2025-10-20 19:14:52,126 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.104:8080
+2025-10-20 19:14:52,126 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-20 19:14:54,803 - INFO - Shard ID 0 has connected to Gateway (Session ID: a69681db9eb02186e8cee98397c72e43).
+2025-10-20 19:15:01,529 - INFO - Shard ID 1 has connected to Gateway (Session ID: 2a8557cfab8a7dddce29f9304ae53080).
+2025-10-20 19:15:03,531 - INFO - 
+██╗  ██╗██╗     ██╗  ██╗██╗         ██╗  ██╗███████╗██████╗ ███████╗
+██║ ██╔╝██║     ██║ ██╔╝██║         ██║  ██║██╔════╝██╔══██╗██╔════╝
+█████╔╝ ██║     █████╔╝ ██║         ███████║█████╗  ██████╔╝█████╗  
+██╔═██╗ ██║     ██╔═██╗ ██║         ██╔══██║██╔══╝  ██╔══██╗██╔══╝  
+██║  ██╗███████╗██║  ██╗███████╗    ██║  ██║███████╗██║  ██║███████╗
+╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝
+    
+2025-10-20 19:15:03,532 - INFO - Loaded & Online!
+2025-10-20 19:15:03,532 - INFO - Logged in as: KLKL#3875
+2025-10-20 19:15:03,532 - INFO - Connected to: 2 guilds
+2025-10-20 19:15:03,533 - INFO - Connected to: 15 users
+2025-10-20 19:15:03,533 - INFO - Startup time: 0.00 seconds
+2025-10-20 19:15:06,237 - INFO - Synced Total 219 Client Commands and 98 Slash Commands
+2025-10-23 14:17:01,682 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-23 14:17:02,568 - INFO - logging in using static token
+2025-10-23 14:17:02,576 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.104:8080
+2025-10-23 14:17:02,577 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-23 14:17:04,793 - INFO - Shard ID 0 has connected to Gateway (Session ID: 9169a72e9c1dc45a59fac2310f27f92d).
+2025-10-23 14:17:10,360 - INFO - Shard ID 1 has connected to Gateway (Session ID: 567f419e1510124c0dfb61dfe624f5ff).
+2025-10-23 14:17:12,376 - INFO - 
+██╗  ██╗██╗     ██╗  ██╗██╗         ██╗  ██╗███████╗██████╗ ███████╗
+██║ ██╔╝██║     ██║ ██╔╝██║         ██║  ██║██╔════╝██╔══██╗██╔════╝
+█████╔╝ ██║     █████╔╝ ██║         ███████║█████╗  ██████╔╝█████╗  
+██╔═██╗ ██║     ██╔═██╗ ██║         ██╔══██║██╔══╝  ██╔══██╗██╔══╝  
+██║  ██╗███████╗██║  ██╗███████╗    ██║  ██║███████╗██║  ██║███████╗
+╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝
+    
+2025-10-23 14:17:12,377 - INFO - Loaded & Online!
+2025-10-23 14:17:12,377 - INFO - Logged in as: KLKL#3875
+2025-10-23 14:17:12,377 - INFO - Connected to: 2 guilds
+2025-10-23 14:17:12,377 - INFO - Connected to: 14 users
+2025-10-23 14:17:12,377 - INFO - Startup time: 0.00 seconds
+2025-10-23 14:17:12,961 - INFO - Synced Total 219 Client Commands and 98 Slash Commands
+2025-10-23 14:24:16,247 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-23 14:24:16,886 - INFO - logging in using static token
+2025-10-23 14:24:16,892 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.104:8080
+2025-10-23 14:24:16,893 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-23 14:24:18,895 - INFO - Shard ID 0 has connected to Gateway (Session ID: fa0eef86ccdb19c2ac507d369bce4d7d).
+2025-10-23 14:24:24,371 - INFO - Shard ID 1 has connected to Gateway (Session ID: 90c2c980838289d5360ac3fb46f9559a).
+2025-10-23 14:24:26,381 - INFO - 
+██╗  ██╗██╗     ██╗  ██╗██╗         ██╗  ██╗███████╗██████╗ ███████╗
+██║ ██╔╝██║     ██║ ██╔╝██║         ██║  ██║██╔════╝██╔══██╗██╔════╝
+█████╔╝ ██║     █████╔╝ ██║         ███████║█████╗  ██████╔╝█████╗  
+██╔═██╗ ██║     ██╔═██╗ ██║         ██╔══██║██╔══╝  ██╔══██╗██╔══╝  
+██║  ██╗███████╗██║  ██╗███████╗    ██║  ██║███████╗██║  ██║███████╗
+╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝
+    
+2025-10-23 14:24:26,382 - INFO - Loaded & Online!
+2025-10-23 14:24:26,382 - INFO - Logged in as: KLKL#3875
+2025-10-23 14:24:26,382 - INFO - Connected to: 2 guilds
+2025-10-23 14:24:26,382 - INFO - Connected to: 14 users
+2025-10-23 14:24:26,383 - INFO - Startup time: 0.00 seconds
+2025-10-23 14:24:27,058 - INFO - Synced Total 219 Client Commands and 98 Slash Commands
+2025-10-23 14:27:14,057 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-23 14:27:14,780 - INFO - logging in using static token
+2025-10-23 14:27:14,790 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.104:8080
+2025-10-23 14:27:14,790 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-23 14:27:16,884 - INFO - Shard ID 0 has connected to Gateway (Session ID: bf4cf4e740648930cb62e5634db870da).
+2025-10-23 14:27:22,476 - INFO - Shard ID 1 has connected to Gateway (Session ID: ffcd22d1586df0ab84218442254ece3c).
+2025-10-23 14:27:24,485 - INFO - 
+██╗  ██╗██╗     ██╗  ██╗██╗         ██╗  ██╗███████╗██████╗ ███████╗
+██║ ██╔╝██║     ██║ ██╔╝██║         ██║  ██║██╔════╝██╔══██╗██╔════╝
+█████╔╝ ██║     █████╔╝ ██║         ███████║█████╗  ██████╔╝█████╗  
+██╔═██╗ ██║     ██╔═██╗ ██║         ██╔══██║██╔══╝  ██╔══██╗██╔══╝  
+██║  ██╗███████╗██║  ██╗███████╗    ██║  ██║███████╗██║  ██║███████╗
+╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝
+    
+2025-10-23 14:27:24,485 - INFO - Loaded & Online!
+2025-10-23 14:27:24,486 - INFO - Logged in as: KLKL#3875
+2025-10-23 14:27:24,486 - INFO - Connected to: 2 guilds
+2025-10-23 14:27:24,486 - INFO - Connected to: 14 users
+2025-10-23 14:27:24,486 - INFO - Startup time: 0.00 seconds
+2025-10-23 14:27:25,157 - INFO - Synced Total 219 Client Commands and 98 Slash Commands
+2025-10-23 14:34:12,961 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-23 14:34:13,795 - INFO - logging in using static token
+2025-10-23 14:34:13,801 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.104:8080
+2025-10-23 14:34:13,802 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-23 14:34:15,781 - INFO - Shard ID 0 has connected to Gateway (Session ID: 374b4712eea17000e0b457873f81a0f7).
+2025-10-23 14:34:21,251 - INFO - Shard ID 1 has connected to Gateway (Session ID: b9de5ab3212a3c8f2276bd24a2ca2759).
+2025-10-23 14:34:23,263 - INFO - 
+██╗  ██╗██╗     ██╗  ██╗██╗         ██╗  ██╗███████╗██████╗ ███████╗
+██║ ██╔╝██║     ██║ ██╔╝██║         ██║  ██║██╔════╝██╔══██╗██╔════╝
+█████╔╝ ██║     █████╔╝ ██║         ███████║█████╗  ██████╔╝█████╗  
+██╔═██╗ ██║     ██╔═██╗ ██║         ██╔══██║██╔══╝  ██╔══██╗██╔══╝  
+██║  ██╗███████╗██║  ██╗███████╗    ██║  ██║███████╗██║  ██║███████╗
+╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝
+    
+2025-10-23 14:34:23,264 - INFO - Loaded & Online!
+2025-10-23 14:34:23,264 - INFO - Logged in as: KLKL#3875
+2025-10-23 14:34:23,264 - INFO - Connected to: 2 guilds
+2025-10-23 14:34:23,264 - INFO - Connected to: 14 users
+2025-10-23 14:34:23,265 - INFO - Startup time: 0.00 seconds
+2025-10-23 14:34:23,947 - INFO - Synced Total 219 Client Commands and 98 Slash Commands
+2025-10-23 14:35:29,790 - ERROR - Ignoring exception in on_wavelink_track_end
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\commands\music.py", line 993, in on_wavelink_track_end
+    voice_channel = player.channel
+                    ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'channel'
+2025-10-23 14:36:09,595 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-23 14:36:10,345 - INFO - logging in using static token
+2025-10-23 14:36:10,352 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.104:8080
+2025-10-23 14:36:10,352 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-23 14:36:12,438 - INFO - Shard ID 0 has connected to Gateway (Session ID: b6eafed45ba500c89752d20440a130ac).
+2025-10-23 14:36:17,998 - INFO - Shard ID 1 has connected to Gateway (Session ID: bd71d5bd9b7faa24550827276a23175d).
+2025-10-23 14:36:20,001 - INFO - 
+██╗  ██╗██╗     ██╗  ██╗██╗         ██╗  ██╗███████╗██████╗ ███████╗
+██║ ██╔╝██║     ██║ ██╔╝██║         ██║  ██║██╔════╝██╔══██╗██╔════╝
+█████╔╝ ██║     █████╔╝ ██║         ███████║█████╗  ██████╔╝█████╗  
+██╔═██╗ ██║     ██╔═██╗ ██║         ██╔══██║██╔══╝  ██╔══██╗██╔══╝  
+██║  ██╗███████╗██║  ██╗███████╗    ██║  ██║███████╗██║  ██║███████╗
+╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝
+    
+2025-10-23 14:36:20,002 - INFO - Loaded & Online!
+2025-10-23 14:36:20,002 - INFO - Logged in as: KLKL#3875
+2025-10-23 14:36:20,002 - INFO - Connected to: 2 guilds
+2025-10-23 14:36:20,002 - INFO - Connected to: 14 users
+2025-10-23 14:36:20,003 - INFO - Startup time: 0.00 seconds
+2025-10-23 14:36:20,627 - INFO - Synced Total 219 Client Commands and 98 Slash Commands
+2025-10-23 14:37:34,667 - ERROR - Ignoring exception in on_wavelink_track_end
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\commands\music.py", line 993, in on_wavelink_track_end
+    voice_channel = player.channel
+                    ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'channel'
+2025-10-23 14:41:47,909 - ERROR - Channel with ID 1327829068644876391 not found.
+2025-10-23 14:43:14,190 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-23 14:43:14,809 - INFO - logging in using static token
+2025-10-23 14:43:14,814 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.104:8080
+2025-10-23 14:43:14,814 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-23 14:43:16,985 - INFO - Shard ID 0 has connected to Gateway (Session ID: 2b428684d34c2e517d2a230528692252).
+2025-10-23 14:43:22,545 - INFO - Shard ID 1 has connected to Gateway (Session ID: 54f3fb9787dc628ecd4814820914fb47).
+2025-10-23 14:43:24,548 - INFO - 
+██╗  ██╗██╗     ██╗  ██╗██╗         ██╗  ██╗███████╗██████╗ ███████╗
+██║ ██╔╝██║     ██║ ██╔╝██║         ██║  ██║██╔════╝██╔══██╗██╔════╝
+█████╔╝ ██║     █████╔╝ ██║         ███████║█████╗  ██████╔╝█████╗  
+██╔═██╗ ██║     ██╔═██╗ ██║         ██╔══██║██╔══╝  ██╔══██╗██╔══╝  
+██║  ██╗███████╗██║  ██╗███████╗    ██║  ██║███████╗██║  ██║███████╗
+╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝
+    
+2025-10-23 14:43:24,549 - INFO - Loaded & Online!
+2025-10-23 14:43:24,550 - INFO - Logged in as: KLKL#3875
+2025-10-23 14:43:24,550 - INFO - Connected to: 3 guilds
+2025-10-23 14:43:24,550 - INFO - Connected to: 15 users
+2025-10-23 14:43:24,550 - INFO - Startup time: 0.00 seconds
+2025-10-23 14:43:25,226 - INFO - Synced Total 219 Client Commands and 98 Slash Commands
+2025-10-23 15:28:28,349 - INFO - Shard ID 0 has successfully RESUMED session 2b428684d34c2e517d2a230528692252.
+2025-10-23 16:00:18,483 - INFO - Shard ID 0 has successfully RESUMED session 2b428684d34c2e517d2a230528692252.
+2025-10-23 16:06:53,352 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\commands\blacklist.py", line 162, in on_message
+    guild_id = str(message.guild.id)
+                   ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:06:53,358 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\automod\antispam.py", line 70, in on_message
+    guild_id = guild.id
+               ^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:06:53,360 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\automod\anticaps.py", line 71, in on_message
+    guild_id = guild.id
+               ^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:06:53,362 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\automod\anti_invites.py", line 68, in on_message
+    guild_id = guild.id
+               ^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:06:53,364 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\automod\antilink.py", line 71, in on_message
+    guild_id = guild.id
+               ^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:06:53,366 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\automod\anti_mass_mention.py", line 68, in on_message
+    guild_id = guild.id
+               ^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:06:53,369 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\automod\anti_emoji_spam.py", line 68, in on_message
+    guild_id = guild.id
+               ^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:06:53,371 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\commands\Media.py", line 238, in on_message
+    async with db.execute('SELECT channel_id FROM media_channels WHERE guild_id = ?', (message.guild.id,)) as cursor:
+                                                                                       ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:06:53,374 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\commands\autoresponder.py", line 139, in on_message
+    async with db.execute("SELECT message FROM autoresponses WHERE guild_id = ? AND LOWER(name) = ?", (message.guild.id, message.content.lower())) as cursor:
+                                                                                                       ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:06:53,376 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\commands\customrole.py", line 520, in on_message
+    guild_id = message.guild.id
+               ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:08:06,942 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\commands\blacklist.py", line 162, in on_message
+    guild_id = str(message.guild.id)
+                   ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:08:06,943 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\automod\antispam.py", line 70, in on_message
+    guild_id = guild.id
+               ^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:08:06,943 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\automod\anti_invites.py", line 68, in on_message
+    guild_id = guild.id
+               ^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:08:06,944 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\automod\antilink.py", line 71, in on_message
+    guild_id = guild.id
+               ^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:08:06,944 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\automod\anti_mass_mention.py", line 68, in on_message
+    guild_id = guild.id
+               ^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:08:06,945 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\automod\anti_emoji_spam.py", line 68, in on_message
+    guild_id = guild.id
+               ^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:08:06,946 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\commands\Media.py", line 238, in on_message
+    async with db.execute('SELECT channel_id FROM media_channels WHERE guild_id = ?', (message.guild.id,)) as cursor:
+                                                                                       ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:08:06,947 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\commands\autoresponder.py", line 139, in on_message
+    async with db.execute("SELECT message FROM autoresponses WHERE guild_id = ? AND LOWER(name) = ?", (message.guild.id, message.content.lower())) as cursor:
+                                                                                                       ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:16:10,530 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\commands\blacklist.py", line 162, in on_message
+    guild_id = str(message.guild.id)
+                   ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:16:10,531 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\automod\antispam.py", line 70, in on_message
+    guild_id = guild.id
+               ^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:16:10,531 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\automod\anti_invites.py", line 68, in on_message
+    guild_id = guild.id
+               ^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:16:10,532 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\automod\antilink.py", line 71, in on_message
+    guild_id = guild.id
+               ^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:16:10,532 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\automod\anti_mass_mention.py", line 68, in on_message
+    guild_id = guild.id
+               ^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:16:10,533 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\automod\anti_emoji_spam.py", line 68, in on_message
+    guild_id = guild.id
+               ^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:16:10,533 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\commands\Media.py", line 238, in on_message
+    async with db.execute('SELECT channel_id FROM media_channels WHERE guild_id = ?', (message.guild.id,)) as cursor:
+                                                                                       ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:16:10,534 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\commands\autoresponder.py", line 139, in on_message
+    async with db.execute("SELECT message FROM autoresponses WHERE guild_id = ? AND LOWER(name) = ?", (message.guild.id, message.content.lower())) as cursor:
+                                                                                                       ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+2025-10-23 16:28:10,068 - INFO - Shard ID 1 has successfully RESUMED session 54f3fb9787dc628ecd4814820914fb47.
+2025-10-23 16:50:11,750 - ERROR - Error on reading from the event loop self pipe
+loop: <ProactorEventLoop running=True closed=False debug=False>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\proactor_events.py", line 792, in _loop_self_reading
+    f.result()  # may raise
+    ~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\windows_events.py", line 804, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\windows_events.py", line 463, in finish_socket_func
+    return ov.getresult()
+           ~~~~~~~~~~~~^^
+ConnectionAbortedError: [WinError 1236] The network connection was aborted by the local system
+2025-10-23 16:50:24,556 - ERROR - Attempting a reconnect for shard ID 1 in 0.82s
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\connector.py", line 1532, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\connector.py", line 1148, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\connector.py", line 1179, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 936, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\socket.py", line 983, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\shard.py", line 201, in reidentify
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\gateway.py", line 383, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\http.py", line 566, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\client.py", line 1067, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\connector.py", line 1538, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-d.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-10-23 16:50:24,574 - WARNING - An unexpected error occurred while connecting Node(identifier=mQD7j0p3pN2ysegV, uri=https://lava-v4.ajieblogs.eu.org:443, status=NodeStatus.CONNECTING, players=0) to Lavalink: "Cannot connect to host lava-v4.ajieblogs.eu.org:443 ssl:default [getaddrinfo failed]"
+If this error persists or wavelink is unable to reconnect, please see: https://github.com/PythonistaGuild/Wavelink/issues
+2025-10-23 16:50:24,575 - INFO - Node(identifier=mQD7j0p3pN2ysegV, uri=https://lava-v4.ajieblogs.eu.org:443, status=NodeStatus.CONNECTING, players=0) retrying websocket connection in "1.168742239347687" seconds.
+2025-10-23 16:50:31,382 - INFO - Shard ID 1 has connected to Gateway (Session ID: d2e75cf39ca9376be1462b466f24511e).
+2025-10-23 16:50:31,384 - ERROR - Ignoring exception in on_connect
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\core\axon.py", line 59, in on_connect
+    await self.change_presence(status=discord.Status.dnd,
+    ...<2 lines>...
+                                   name='!help | klkl.pro'))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\shard.py", line 615, in change_presence
+    await shard.ws.change_presence(activity=activity, status=status_value)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\gateway.py", line 713, in change_presence
+    await self.send(sent)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\gateway.py", line 667, in send
+    await self.socket.send_str(data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\_websocket\writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-10-23 16:50:31,804 - INFO - Shard ID 0 has successfully RESUMED session 2b428684d34c2e517d2a230528692252.
+2025-10-23 16:54:16,071 - ERROR - Attempting a reconnect for shard ID 1 in 2.32s
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\connector.py", line 1532, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\connector.py", line 1148, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\connector.py", line 1179, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 936, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\socket.py", line 983, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\shard.py", line 201, in reidentify
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\gateway.py", line 383, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\http.py", line 566, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\client.py", line 1067, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\connector.py", line 1538, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-d.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-10-23 16:54:16,075 - WARNING - An unexpected error occurred while connecting Node(identifier=mQD7j0p3pN2ysegV, uri=https://lava-v4.ajieblogs.eu.org:443, status=NodeStatus.CONNECTING, players=0) to Lavalink: "Cannot connect to host lava-v4.ajieblogs.eu.org:443 ssl:default [getaddrinfo failed]"
+If this error persists or wavelink is unable to reconnect, please see: https://github.com/PythonistaGuild/Wavelink/issues
+2025-10-23 16:54:16,075 - INFO - Node(identifier=mQD7j0p3pN2ysegV, uri=https://lava-v4.ajieblogs.eu.org:443, status=NodeStatus.CONNECTING, players=0) retrying websocket connection in "6.537598756341292" seconds.
+2025-10-23 16:54:28,488 - INFO - Shard ID 1 has connected to Gateway (Session ID: ccfd05ca1c16a760be6672a3de133543).
+2025-10-23 16:54:28,489 - ERROR - Ignoring exception in on_connect
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\core\axon.py", line 59, in on_connect
+    await self.change_presence(status=discord.Status.dnd,
+    ...<2 lines>...
+                                   name='!help | klkl.pro'))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\shard.py", line 615, in change_presence
+    await shard.ws.change_presence(activity=activity, status=status_value)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\gateway.py", line 713, in change_presence
+    await self.send(sent)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\gateway.py", line 667, in send
+    await self.socket.send_str(data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\aiohttp\_websocket\writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-10-23 16:54:28,953 - INFO - Shard ID 0 has successfully RESUMED session 2b428684d34c2e517d2a230528692252.
+2025-10-23 17:41:16,816 - INFO - Shard ID 1 has successfully RESUMED session ccfd05ca1c16a760be6672a3de133543.
+2025-10-23 17:41:17,266 - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\events\Errors.py", line 75, in on_command_error
+    await ctx.reply(embed=embed, delete_after=10)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\ext\commands\context.py", line 781, in reply
+    return await self.send(content, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\ext\commands\context.py", line 1140, in send
+    response = await self.interaction.response.send_message(**kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\interactions.py", line 1051, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-10-23 17:41:18,058 - INFO - Shard ID 0 has successfully RESUMED session 2b428684d34c2e517d2a230528692252.
+2025-10-23 17:42:48,304 - ERROR - Error on reading from the event loop self pipe
+loop: <ProactorEventLoop running=True closed=False debug=False>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\CodeX.py", line 146, in main
+    await client.start(TOKEN)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 847, in start
+    await self.connect(reconnect=reconnect)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\shard.py", line 522, in connect
+    item = await self.__queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 132, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\proactor_events.py", line 801, in _loop_self_reading
+    f = self._proactor.recv(self._ssock, 4096)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\windows_events.py", line 488, in recv
+    ov.WSARecv(conn.fileno(), nbytes, flags)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-10-23 17:42:48,311 - ERROR - Error on reading from the event loop self pipe
+loop: <ProactorEventLoop running=True closed=False debug=False>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\CodeX.py", line 146, in main
+    await client.start(TOKEN)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 847, in start
+    await self.connect(reconnect=reconnect)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\shard.py", line 522, in connect
+    item = await self.__queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 132, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\proactor_events.py", line 801, in _loop_self_reading
+    f = self._proactor.recv(self._ssock, 4096)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\windows_events.py", line 488, in recv
+    ov.WSARecv(conn.fileno(), nbytes, flags)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-10-23 17:42:48,313 - ERROR - Error on reading from the event loop self pipe
+loop: <ProactorEventLoop running=True closed=False debug=False>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\CodeX.py", line 146, in main
+    await client.start(TOKEN)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 847, in start
+    await self.connect(reconnect=reconnect)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\shard.py", line 522, in connect
+    item = await self.__queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 132, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\proactor_events.py", line 801, in _loop_self_reading
+    f = self._proactor.recv(self._ssock, 4096)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\asyncio\windows_events.py", line 488, in recv
+    ov.WSARecv(conn.fileno(), nbytes, flags)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-10-23 17:42:54,422 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-23 17:42:55,090 - INFO - logging in using static token
+2025-10-23 17:42:55,096 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.104:8080
+2025-10-23 17:42:55,096 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-23 17:42:57,482 - INFO - Shard ID 0 has connected to Gateway (Session ID: 4a8370469e59624a9813b98699eef641).
+2025-10-23 17:43:02,940 - INFO - Shard ID 1 has connected to Gateway (Session ID: feca6b7b58508c8905377781f734e61f).
+2025-10-23 17:43:04,948 - INFO - 
+██╗  ██╗██╗     ██╗  ██╗██╗         ██╗  ██╗███████╗██████╗ ███████╗
+██║ ██╔╝██║     ██║ ██╔╝██║         ██║  ██║██╔════╝██╔══██╗██╔════╝
+█████╔╝ ██║     █████╔╝ ██║         ███████║█████╗  ██████╔╝█████╗  
+██╔═██╗ ██║     ██╔═██╗ ██║         ██╔══██║██╔══╝  ██╔══██╗██╔══╝  
+██║  ██╗███████╗██║  ██╗███████╗    ██║  ██║███████╗██║  ██║███████╗
+╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝
+    
+2025-10-23 17:43:04,949 - INFO - Loaded & Online!
+2025-10-23 17:43:04,949 - INFO - Logged in as: KLKL#3875
+2025-10-23 17:43:04,949 - INFO - Connected to: 3 guilds
+2025-10-23 17:43:04,949 - INFO - Connected to: 15 users
+2025-10-23 17:43:04,950 - INFO - Startup time: 0.00 seconds
+2025-10-23 17:43:05,663 - INFO - Synced Total 219 Client Commands and 98 Slash Commands
+2025-10-23 18:26:45,295 - INFO - Shard ID 1 has successfully RESUMED session feca6b7b58508c8905377781f734e61f.
+2025-10-23 18:40:11,361 - INFO - Shard ID 0 has successfully RESUMED session 4a8370469e59624a9813b98699eef641.
+2025-10-23 19:35:39,917 - INFO - Shard ID 1 has successfully RESUMED session feca6b7b58508c8905377781f734e61f.
+2025-10-23 20:07:00,094 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-23 20:07:00,705 - INFO - logging in using static token
+2025-10-23 20:07:00,714 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.104:8080
+2025-10-23 20:07:00,714 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-23 20:07:03,007 - INFO - Shard ID 0 has connected to Gateway (Session ID: 4598baae9703890315d75e24c88d3444).
+2025-10-23 20:07:09,238 - INFO - Shard ID 1 has connected to Gateway (Session ID: 247e6ac7038d1200d5b4e14e15fd8aa2).
+2025-10-23 20:07:11,267 - INFO - 
+██╗  ██╗██╗     ██╗  ██╗██╗         ██╗  ██╗███████╗██████╗ ███████╗
+██║ ██╔╝██║     ██║ ██╔╝██║         ██║  ██║██╔════╝██╔══██╗██╔════╝
+█████╔╝ ██║     █████╔╝ ██║         ███████║█████╗  ██████╔╝█████╗  
+██╔═██╗ ██║     ██╔═██╗ ██║         ██╔══██║██╔══╝  ██╔══██╗██╔══╝  
+██║  ██╗███████╗██║  ██╗███████╗    ██║  ██║███████╗██║  ██║███████╗
+╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝
+    
+2025-10-23 20:07:11,268 - INFO - Loaded & Online!
+2025-10-23 20:07:11,268 - INFO - Logged in as: KLKL#3875
+2025-10-23 20:07:11,268 - INFO - Connected to: 3 guilds
+2025-10-23 20:07:11,269 - INFO - Connected to: 16 users
+2025-10-23 20:07:11,269 - INFO - Startup time: 0.00 seconds
+2025-10-23 20:07:11,922 - INFO - Synced Total 219 Client Commands and 98 Slash Commands
+2025-10-23 20:33:13,943 - INFO - Player "1430882539232559216" could not load any songs via AutoPlay.
+2025-10-23 20:39:22,058 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-23 20:39:22,706 - INFO - logging in using static token
+2025-10-23 20:39:22,711 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.104:8080
+2025-10-23 20:39:22,711 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-23 20:39:25,174 - INFO - Shard ID 0 has connected to Gateway (Session ID: 5d26495a77e7c78522c3643216bd0370).
+2025-10-23 20:39:30,649 - INFO - Shard ID 1 has connected to Gateway (Session ID: c140a809122c45de0cd45b8891a708c1).
+2025-10-23 20:39:32,658 - INFO - 
+██╗  ██╗██╗     ██╗  ██╗██╗         ██╗  ██╗███████╗██████╗ ███████╗
+██║ ██╔╝██║     ██║ ██╔╝██║         ██║  ██║██╔════╝██╔══██╗██╔════╝
+█████╔╝ ██║     █████╔╝ ██║         ███████║█████╗  ██████╔╝█████╗  
+██╔═██╗ ██║     ██╔═██╗ ██║         ██╔══██║██╔══╝  ██╔══██╗██╔══╝  
+██║  ██╗███████╗██║  ██╗███████╗    ██║  ██║███████╗██║  ██║███████╗
+╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝
+    
+2025-10-23 20:39:32,659 - INFO - Loaded & Online!
+2025-10-23 20:39:32,659 - INFO - Logged in as: KLKL#3875
+2025-10-23 20:39:32,660 - INFO - Connected to: 3 guilds
+2025-10-23 20:39:32,660 - INFO - Connected to: 16 users
+2025-10-23 20:39:32,660 - INFO - Startup time: 0.00 seconds
+2025-10-23 20:39:33,730 - INFO - Synced Total 219 Client Commands and 98 Slash Commands
+2025-10-23 20:56:23,980 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-23 20:56:24,612 - INFO - logging in using static token
+2025-10-23 20:56:24,617 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.104:8080
+2025-10-23 20:56:24,617 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-23 20:56:27,296 - INFO - Shard ID 0 has connected to Gateway (Session ID: 452732185fcf3a9792f1127c86326717).
+2025-10-23 20:56:32,876 - INFO - Shard ID 1 has connected to Gateway (Session ID: 296a22aa0d61241198bb99c66796b6fa).
+2025-10-23 20:56:34,882 - INFO - 
+██╗  ██╗██╗     ██╗  ██╗██╗         ██╗  ██╗███████╗██████╗ ███████╗
+██║ ██╔╝██║     ██║ ██╔╝██║         ██║  ██║██╔════╝██╔══██╗██╔════╝
+█████╔╝ ██║     █████╔╝ ██║         ███████║█████╗  ██████╔╝█████╗  
+██╔═██╗ ██║     ██╔═██╗ ██║         ██╔══██║██╔══╝  ██╔══██╗██╔══╝  
+██║  ██╗███████╗██║  ██╗███████╗    ██║  ██║███████╗██║  ██║███████╗
+╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝
+    
+2025-10-23 20:56:34,883 - INFO - Loaded & Online!
+2025-10-23 20:56:34,883 - INFO - Logged in as: KLKL#3875
+2025-10-23 20:56:34,883 - INFO - Connected to: 3 guilds
+2025-10-23 20:56:34,883 - INFO - Connected to: 16 users
+2025-10-23 20:56:34,883 - INFO - Startup time: 0.00 seconds
+2025-10-23 20:56:35,479 - INFO - Synced Total 219 Client Commands and 98 Slash Commands
+2025-10-23 20:58:42,331 - ERROR - Ignoring exception in on_wavelink_track_end
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python314\Lib\site-packages\discord\client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\Axon-Bot-main\cogs\commands\music.py", line 993, in on_wavelink_track_end
+    voice_channel = player.channel
+                    ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'channel'
+2025-10-23 20:59:36,753 - INFO - Shard ID 0 has successfully RESUMED session 452732185fcf3a9792f1127c86326717.
